@@ -1,10 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\T0 HAL",
-    "\\T0 HAL\\Core",
-    "\\T0 HAL\\Core\\Src"
+    "\\P03 KEY IO-Interrupt",
+    "\\P03 KEY IO-Interrupt\\Core",
+    "\\P03 KEY IO-Interrupt\\Core\\Src",
+    "\\P03 KEY IO-Interrupt\\Core\\Src\\My_Driver",
+    "\\P2 Beep\\Core",
+    "\\P2 Beep\\Core\\Src",
+    "\\P2 Beep\\Core\\Src\\My_Driver",
+    "\\P2 Beep\\Drivers",
+    "\\P2 Beep\\Drivers\\STM32F1xx_HAL_Driver"
   ],
-  "SelectedNode": "\\T0 HAL\\Core\\Src\\GPIO.H",
+  "SelectedNode": "\\P03 KEY IO-Interrupt\\Core\\Src\\My_Driver\\My_Driver.h",
   "PreviewInSolutionExplorer": false
 }
