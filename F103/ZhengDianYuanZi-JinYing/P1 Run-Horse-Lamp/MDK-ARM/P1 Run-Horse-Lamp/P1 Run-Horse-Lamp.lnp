@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"p1 run-horse-lamp\startup_stm32f103xe.o"
+"p1 run-horse-lamp\main.o"
+"p1 run-horse-lamp\stm32f1xx_it.o"
+"p1 run-horse-lamp\stm32f1xx_hal_msp.o"
+"p1 run-horse-lamp\stm32f1xx_hal_gpio_ex.o"
+"p1 run-horse-lamp\stm32f1xx_hal_tim.o"
+"p1 run-horse-lamp\stm32f1xx_hal_tim_ex.o"
+"p1 run-horse-lamp\stm32f1xx_hal.o"
+"p1 run-horse-lamp\stm32f1xx_hal_rcc.o"
+"p1 run-horse-lamp\stm32f1xx_hal_rcc_ex.o"
+"p1 run-horse-lamp\stm32f1xx_hal_gpio.o"
+"p1 run-horse-lamp\stm32f1xx_hal_dma.o"
+"p1 run-horse-lamp\stm32f1xx_hal_cortex.o"
+"p1 run-horse-lamp\stm32f1xx_hal_pwr.o"
+"p1 run-horse-lamp\stm32f1xx_hal_flash.o"
+"p1 run-horse-lamp\stm32f1xx_hal_flash_ex.o"
+"p1 run-horse-lamp\stm32f1xx_hal_exti.o"
+"p1 run-horse-lamp\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "P1 Run-Horse-Lamp\P1 Run-Horse-Lamp.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "P1 Run-Horse-Lamp.map" -o "P1 Run-Horse-Lamp\P1 Run-Horse-Lamp.axf"

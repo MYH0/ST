@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>T0 LED</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.st.stm32cube.ide.mcu.MCUProjectNature</nature>
+		<nature>com.st.stm32cube.ide.mcu.MCUCubeProjectNature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>com.st.stm32cube.ide.mcu.MCUCubeIdeServicesRevAProjectNature</nature>
+		<nature>com.st.stm32cube.ide.mcu.MCUAdvancedStructureProjectNature</nature>
+		<nature>com.st.stm32cube.ide.mcu.MCUEndUserDisabledTrustZoneProjectNature</nature>
+		<nature>com.st.stm32cube.ide.mcu.MCUSingleCpuProjectNature</nature>
+		<nature>com.st.stm32cube.ide.mcu.MCURootProjectNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+	</natures>
+	<variableList>
+		<variable>
+			<name>Delay</name>
+			<value>file:/C:/0Practice/Hardware/ST/STM32/F103/ZhengDianYuanZi-JinYing/SYSTEM/delay</value>
+		</variable>
+		<variable>
+			<name>SYS</name>
+			<value>file:/C:/0Practice/Hardware/ST/STM32/F103/ZhengDianYuanZi-JinYing/SYSTEM/sys</value>
+		</variable>
+		<variable>
+			<name>USART</name>
+			<value>file:/C:/0Practice/Hardware/ST/STM32/F103/ZhengDianYuanZi-JinYing/SYSTEM/usart</value>
+		</variable>
+	</variableList>
+</projectDescription>
