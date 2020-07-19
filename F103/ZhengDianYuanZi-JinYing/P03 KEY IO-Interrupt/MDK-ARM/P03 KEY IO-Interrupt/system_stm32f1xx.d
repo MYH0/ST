@@ -2,18 +2,18 @@ p03\ key\ io-interrupt/system_stm32f1xx.o: ..\Core\Src\system_stm32f1xx.c \
   ..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h \
   ..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h \
   ..\Drivers\CMSIS\Include\core_cm3.h \
-  C:\Keil5\ MDK\Keil5\ MDK-CODE\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  C:\KEIL\KEIL-CODE\ARM\ARMCLANG\Bin\..\include\stdint.h \
   ..\Drivers\CMSIS\Include\cmsis_version.h \
   ..\Drivers\CMSIS\Include\cmsis_compiler.h \
   ..\Drivers\CMSIS\Include\cmsis_armclang.h \
-  C:\Keil5\ MDK\Keil5\ MDK-CODE\ARM\ARMCLANG\Bin\..\include\arm_compat.h \
-  C:\Keil5\ MDK\Keil5\ MDK-CODE\ARM\ARMCLANG\Bin\..\include\arm_acle.h \
+  C:\KEIL\KEIL-CODE\ARM\ARMCLANG\Bin\..\include\arm_compat.h \
+  C:\KEIL\KEIL-CODE\ARM\ARMCLANG\Bin\..\include\arm_acle.h \
   ..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h \
   ..\Core\Inc\stm32f1xx_hal_conf.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h \
-  C:\Keil5\ MDK\Keil5\ MDK-CODE\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  C:\KEIL\KEIL-CODE\ARM\ARMCLANG\Bin\..\include\stddef.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h \

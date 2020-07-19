@@ -4,12 +4,7 @@
     "\\P03 KEY IO-Interrupt",
     "\\P03 KEY IO-Interrupt\\Core",
     "\\P03 KEY IO-Interrupt\\Core\\Src",
-    "\\P03 KEY IO-Interrupt\\Core\\Src\\My_Driver",
-    "\\P2 Beep\\Core",
-    "\\P2 Beep\\Core\\Src",
-    "\\P2 Beep\\Core\\Src\\My_Driver",
-    "\\P2 Beep\\Drivers",
-    "\\P2 Beep\\Drivers\\STM32F1xx_HAL_Driver"
+    "\\P03 KEY IO-Interrupt\\Core\\Src\\My_Driver"
   ],
   "SelectedNode": "\\P03 KEY IO-Interrupt\\Core\\Src\\My_Driver\\My_Driver.h",
   "PreviewInSolutionExplorer": false
