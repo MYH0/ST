@@ -27,4 +27,5 @@ p03\ key\ io-interrupt/main.o: ..\Core\Src\main.c ..\Core\Inc\main.h \
   ..\Core\Inc\gpio.h ..\Core\Inc\main.h ..\Core\Src\My_Driver.h \
   ..\Core\Src\My_Driver\S32F1_Typedef.h \
   ..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h \
-  ..\Core\Src\My_Driver\S32F1_Delay.h ..\Core\Src\My_Driver\S32F1_GPIO.H
+  ..\Core\Src\My_Driver\S32F1_Delay.h ..\Core\Src\My_Driver\S32F1_GPIO.H \
+  ..\Core\Src\My_Driver\STM32F1_Key.h
