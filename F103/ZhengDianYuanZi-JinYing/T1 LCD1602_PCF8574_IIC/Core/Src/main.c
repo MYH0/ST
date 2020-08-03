@@ -123,8 +123,13 @@ int main(void)
 
 		  col++;
 
-		  if (col > 15) {row++; col = 0;}
-		  if (row > 1) row=0;
+		  if (col > 15)
+		  {
+			  row++;
+			  col = 0;
+		  }
+		  if (row > 1)
+			  row=0;
 
 		  HAL_Delay(250);
 	  }
