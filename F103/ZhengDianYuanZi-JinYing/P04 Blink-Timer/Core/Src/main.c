@@ -89,7 +89,7 @@ int main(void)
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
   GPIO_Init();
-  HAL_TIM_Base_Start_IT(&htim2);
+  TIM2_Enable();
   /* USER CODE END 2 */
 
   /* Infinite loop */

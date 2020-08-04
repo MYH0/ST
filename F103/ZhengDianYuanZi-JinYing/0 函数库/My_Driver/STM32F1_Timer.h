@@ -1,5 +1,12 @@
 #pragma once
 
+/***********************************定时器使能*******************************/
+void TIM2_Enable()
+{
+    HAL_TIM_Base_Start_IT(&htim2);
+}
+
+/***********************************进入定时中断******************************/
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef* htim)
 {
     if (htim == (&htim2))
