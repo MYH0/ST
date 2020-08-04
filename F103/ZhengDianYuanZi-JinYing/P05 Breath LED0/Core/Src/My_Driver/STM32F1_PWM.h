@@ -10,23 +10,21 @@
 
 /**********************************全局变量**********************************/
 uint duty = 0;
-
+uchar duty_mode = 0;
 /************************************操作************************************/
 void PWM_Breath()
 {
-	while (duty < 500)
-	{
-		duty++;
-		__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, duty);
-		Delay_ms(1);
-	}
-	while (duty)
-	{
-		duty--;
-		__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, duty);
-		Delay_ms(1);
+	if (duty == 0)
+		duty_mode = 0;
+	else if (duty == 499)
+		duty_mode = 1;
 
-	}
-	Delay_ms(200);
+	if (duty_mode == 0)
+		duty++;
+	else
+		duty--;
+
+	__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, duty);
+	Delay_ms(1);
 
 }
