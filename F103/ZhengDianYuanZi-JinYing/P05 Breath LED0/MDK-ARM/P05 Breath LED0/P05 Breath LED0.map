@@ -6,17 +6,17 @@ Section Cross References
 
     startup_stm32f103xe.o(RESET) refers to startup_stm32f103xe.o(STACK) for __initial_sp
     startup_stm32f103xe.o(RESET) refers to startup_stm32f103xe.o(.text) for Reset_Handler
-    startup_stm32f103xe.o(RESET) refers to lto-llvm-1c78fd.o(.text.NMI_Handler) for NMI_Handler
-    startup_stm32f103xe.o(RESET) refers to lto-llvm-1c78fd.o(.text.HardFault_Handler) for HardFault_Handler
-    startup_stm32f103xe.o(RESET) refers to lto-llvm-1c78fd.o(.text.MemManage_Handler) for MemManage_Handler
-    startup_stm32f103xe.o(RESET) refers to lto-llvm-1c78fd.o(.text.BusFault_Handler) for BusFault_Handler
-    startup_stm32f103xe.o(RESET) refers to lto-llvm-1c78fd.o(.text.UsageFault_Handler) for UsageFault_Handler
-    startup_stm32f103xe.o(RESET) refers to lto-llvm-1c78fd.o(.text.SVC_Handler) for SVC_Handler
-    startup_stm32f103xe.o(RESET) refers to lto-llvm-1c78fd.o(.text.DebugMon_Handler) for DebugMon_Handler
-    startup_stm32f103xe.o(RESET) refers to lto-llvm-1c78fd.o(.text.PendSV_Handler) for PendSV_Handler
-    startup_stm32f103xe.o(RESET) refers to lto-llvm-1c78fd.o(.text.SysTick_Handler) for SysTick_Handler
-    startup_stm32f103xe.o(RESET) refers to lto-llvm-1c78fd.o(.text.TIM3_IRQHandler) for TIM3_IRQHandler
-    startup_stm32f103xe.o(.text) refers to lto-llvm-1c78fd.o(.text.SystemInit) for SystemInit
+    startup_stm32f103xe.o(RESET) refers to lto-llvm-7f72b8.o(.text.NMI_Handler) for NMI_Handler
+    startup_stm32f103xe.o(RESET) refers to lto-llvm-7f72b8.o(.text.HardFault_Handler) for HardFault_Handler
+    startup_stm32f103xe.o(RESET) refers to lto-llvm-7f72b8.o(.text.MemManage_Handler) for MemManage_Handler
+    startup_stm32f103xe.o(RESET) refers to lto-llvm-7f72b8.o(.text.BusFault_Handler) for BusFault_Handler
+    startup_stm32f103xe.o(RESET) refers to lto-llvm-7f72b8.o(.text.UsageFault_Handler) for UsageFault_Handler
+    startup_stm32f103xe.o(RESET) refers to lto-llvm-7f72b8.o(.text.SVC_Handler) for SVC_Handler
+    startup_stm32f103xe.o(RESET) refers to lto-llvm-7f72b8.o(.text.DebugMon_Handler) for DebugMon_Handler
+    startup_stm32f103xe.o(RESET) refers to lto-llvm-7f72b8.o(.text.PendSV_Handler) for PendSV_Handler
+    startup_stm32f103xe.o(RESET) refers to lto-llvm-7f72b8.o(.text.SysTick_Handler) for SysTick_Handler
+    startup_stm32f103xe.o(RESET) refers to lto-llvm-7f72b8.o(.text.TIM3_IRQHandler) for TIM3_IRQHandler
+    startup_stm32f103xe.o(.text) refers to lto-llvm-7f72b8.o(.text.SystemInit) for SystemInit
     startup_stm32f103xe.o(.text) refers to entry.o(.ARM.Collect$$$$00000000) for __main
     entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry10a.o(.ARM.Collect$$$$0000000D) for __rt_final_cpp
     entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry11a.o(.ARM.Collect$$$$0000000F) for __rt_final_exit
@@ -30,36 +30,36 @@ Section Cross References
     entry2.o(__vectab_stack_and_reset_area) refers to startup_stm32f103xe.o(STACK) for __initial_sp
     entry2.o(__vectab_stack_and_reset_area) refers to entry.o(.ARM.Collect$$$$00000000) for __main
     entry5.o(.ARM.Collect$$$$00000004) refers to init.o(.text) for __scatterload
-    entry9a.o(.ARM.Collect$$$$0000000B) refers to lto-llvm-1c78fd.o(.text.main) for main
-    entry9b.o(.ARM.Collect$$$$0000000C) refers to lto-llvm-1c78fd.o(.text.main) for main
+    entry9a.o(.ARM.Collect$$$$0000000B) refers to lto-llvm-7f72b8.o(.text.main) for main
+    entry9b.o(.ARM.Collect$$$$0000000C) refers to lto-llvm-7f72b8.o(.text.main) for main
     init.o(.text) refers to entry5.o(.ARM.Collect$$$$00000004) for __main_after_scatterload
-    lto-llvm-1c78fd.o(.text.main) refers to lto-llvm-1c78fd.o(.text.HAL_InitTick) for HAL_InitTick
-    lto-llvm-1c78fd.o(.text.main) refers to lto-llvm-1c78fd.o(.text.HAL_GPIO_Init) for HAL_GPIO_Init
-    lto-llvm-1c78fd.o(.text.main) refers to lto-llvm-1c78fd.o(.text.HAL_NVIC_SetPriority) for HAL_NVIC_SetPriority
-    lto-llvm-1c78fd.o(.text.main) refers to lto-llvm-1c78fd.o(.text.TIM_Base_SetConfig) for TIM_Base_SetConfig
-    lto-llvm-1c78fd.o(.text.main) refers to lto-llvm-1c78fd.o(.bss..L_MergedGlobals.69) for [Anonymous Symbol]
-    lto-llvm-1c78fd.o(.text.main) refers to lto-llvm-1c78fd.o(.data..L_MergedGlobals) for [Anonymous Symbol]
-    lto-llvm-1c78fd.o(.ARM.exidx.text.main) refers to lto-llvm-1c78fd.o(.text.main) for [Anonymous Symbol]
-    lto-llvm-1c78fd.o(.ARM.exidx.text.NMI_Handler) refers to lto-llvm-1c78fd.o(.text.NMI_Handler) for [Anonymous Symbol]
-    lto-llvm-1c78fd.o(.ARM.exidx.text.HardFault_Handler) refers to lto-llvm-1c78fd.o(.text.HardFault_Handler) for [Anonymous Symbol]
-    lto-llvm-1c78fd.o(.ARM.exidx.text.MemManage_Handler) refers to lto-llvm-1c78fd.o(.text.MemManage_Handler) for [Anonymous Symbol]
-    lto-llvm-1c78fd.o(.ARM.exidx.text.BusFault_Handler) refers to lto-llvm-1c78fd.o(.text.BusFault_Handler) for [Anonymous Symbol]
-    lto-llvm-1c78fd.o(.ARM.exidx.text.UsageFault_Handler) refers to lto-llvm-1c78fd.o(.text.UsageFault_Handler) for [Anonymous Symbol]
-    lto-llvm-1c78fd.o(.ARM.exidx.text.SVC_Handler) refers to lto-llvm-1c78fd.o(.text.SVC_Handler) for [Anonymous Symbol]
-    lto-llvm-1c78fd.o(.ARM.exidx.text.DebugMon_Handler) refers to lto-llvm-1c78fd.o(.text.DebugMon_Handler) for [Anonymous Symbol]
-    lto-llvm-1c78fd.o(.ARM.exidx.text.PendSV_Handler) refers to lto-llvm-1c78fd.o(.text.PendSV_Handler) for [Anonymous Symbol]
-    lto-llvm-1c78fd.o(.text.SysTick_Handler) refers to lto-llvm-1c78fd.o(.bss..L_MergedGlobals.69) for [Anonymous Symbol]
-    lto-llvm-1c78fd.o(.ARM.exidx.text.SysTick_Handler) refers to lto-llvm-1c78fd.o(.text.SysTick_Handler) for [Anonymous Symbol]
-    lto-llvm-1c78fd.o(.text.TIM3_IRQHandler) refers to lto-llvm-1c78fd.o(.bss..L_MergedGlobals.69) for [Anonymous Symbol]
-    lto-llvm-1c78fd.o(.ARM.exidx.text.TIM3_IRQHandler) refers to lto-llvm-1c78fd.o(.text.TIM3_IRQHandler) for [Anonymous Symbol]
-    lto-llvm-1c78fd.o(.text.TIM_Base_SetConfig) refers to lto-llvm-1c78fd.o(.bss..L_MergedGlobals.69) for [Anonymous Symbol]
-    lto-llvm-1c78fd.o(.ARM.exidx.text.TIM_Base_SetConfig) refers to lto-llvm-1c78fd.o(.text.TIM_Base_SetConfig) for [Anonymous Symbol]
-    lto-llvm-1c78fd.o(.text.HAL_InitTick) refers to lto-llvm-1c78fd.o(.text.HAL_NVIC_SetPriority) for HAL_NVIC_SetPriority
-    lto-llvm-1c78fd.o(.text.HAL_InitTick) refers to lto-llvm-1c78fd.o(.data..L_MergedGlobals) for [Anonymous Symbol]
-    lto-llvm-1c78fd.o(.ARM.exidx.text.HAL_InitTick) refers to lto-llvm-1c78fd.o(.text.HAL_InitTick) for [Anonymous Symbol]
-    lto-llvm-1c78fd.o(.ARM.exidx.text.HAL_GPIO_Init) refers to lto-llvm-1c78fd.o(.text.HAL_GPIO_Init) for [Anonymous Symbol]
-    lto-llvm-1c78fd.o(.ARM.exidx.text.HAL_NVIC_SetPriority) refers to lto-llvm-1c78fd.o(.text.HAL_NVIC_SetPriority) for [Anonymous Symbol]
-    lto-llvm-1c78fd.o(.ARM.exidx.text.SystemInit) refers to lto-llvm-1c78fd.o(.text.SystemInit) for [Anonymous Symbol]
+    lto-llvm-7f72b8.o(.text.main) refers to lto-llvm-7f72b8.o(.text.HAL_InitTick) for HAL_InitTick
+    lto-llvm-7f72b8.o(.text.main) refers to lto-llvm-7f72b8.o(.text.HAL_GPIO_Init) for HAL_GPIO_Init
+    lto-llvm-7f72b8.o(.text.main) refers to lto-llvm-7f72b8.o(.text.HAL_NVIC_SetPriority) for HAL_NVIC_SetPriority
+    lto-llvm-7f72b8.o(.text.main) refers to lto-llvm-7f72b8.o(.text.TIM_Base_SetConfig) for TIM_Base_SetConfig
+    lto-llvm-7f72b8.o(.text.main) refers to lto-llvm-7f72b8.o(.bss..L_MergedGlobals.69) for [Anonymous Symbol]
+    lto-llvm-7f72b8.o(.text.main) refers to lto-llvm-7f72b8.o(.data..L_MergedGlobals) for [Anonymous Symbol]
+    lto-llvm-7f72b8.o(.ARM.exidx.text.main) refers to lto-llvm-7f72b8.o(.text.main) for [Anonymous Symbol]
+    lto-llvm-7f72b8.o(.ARM.exidx.text.NMI_Handler) refers to lto-llvm-7f72b8.o(.text.NMI_Handler) for [Anonymous Symbol]
+    lto-llvm-7f72b8.o(.ARM.exidx.text.HardFault_Handler) refers to lto-llvm-7f72b8.o(.text.HardFault_Handler) for [Anonymous Symbol]
+    lto-llvm-7f72b8.o(.ARM.exidx.text.MemManage_Handler) refers to lto-llvm-7f72b8.o(.text.MemManage_Handler) for [Anonymous Symbol]
+    lto-llvm-7f72b8.o(.ARM.exidx.text.BusFault_Handler) refers to lto-llvm-7f72b8.o(.text.BusFault_Handler) for [Anonymous Symbol]
+    lto-llvm-7f72b8.o(.ARM.exidx.text.UsageFault_Handler) refers to lto-llvm-7f72b8.o(.text.UsageFault_Handler) for [Anonymous Symbol]
+    lto-llvm-7f72b8.o(.ARM.exidx.text.SVC_Handler) refers to lto-llvm-7f72b8.o(.text.SVC_Handler) for [Anonymous Symbol]
+    lto-llvm-7f72b8.o(.ARM.exidx.text.DebugMon_Handler) refers to lto-llvm-7f72b8.o(.text.DebugMon_Handler) for [Anonymous Symbol]
+    lto-llvm-7f72b8.o(.ARM.exidx.text.PendSV_Handler) refers to lto-llvm-7f72b8.o(.text.PendSV_Handler) for [Anonymous Symbol]
+    lto-llvm-7f72b8.o(.text.SysTick_Handler) refers to lto-llvm-7f72b8.o(.bss..L_MergedGlobals.69) for [Anonymous Symbol]
+    lto-llvm-7f72b8.o(.ARM.exidx.text.SysTick_Handler) refers to lto-llvm-7f72b8.o(.text.SysTick_Handler) for [Anonymous Symbol]
+    lto-llvm-7f72b8.o(.text.TIM3_IRQHandler) refers to lto-llvm-7f72b8.o(.bss..L_MergedGlobals.69) for [Anonymous Symbol]
+    lto-llvm-7f72b8.o(.ARM.exidx.text.TIM3_IRQHandler) refers to lto-llvm-7f72b8.o(.text.TIM3_IRQHandler) for [Anonymous Symbol]
+    lto-llvm-7f72b8.o(.text.TIM_Base_SetConfig) refers to lto-llvm-7f72b8.o(.bss..L_MergedGlobals.69) for [Anonymous Symbol]
+    lto-llvm-7f72b8.o(.ARM.exidx.text.TIM_Base_SetConfig) refers to lto-llvm-7f72b8.o(.text.TIM_Base_SetConfig) for [Anonymous Symbol]
+    lto-llvm-7f72b8.o(.text.HAL_InitTick) refers to lto-llvm-7f72b8.o(.text.HAL_NVIC_SetPriority) for HAL_NVIC_SetPriority
+    lto-llvm-7f72b8.o(.text.HAL_InitTick) refers to lto-llvm-7f72b8.o(.data..L_MergedGlobals) for [Anonymous Symbol]
+    lto-llvm-7f72b8.o(.ARM.exidx.text.HAL_InitTick) refers to lto-llvm-7f72b8.o(.text.HAL_InitTick) for [Anonymous Symbol]
+    lto-llvm-7f72b8.o(.ARM.exidx.text.HAL_GPIO_Init) refers to lto-llvm-7f72b8.o(.text.HAL_GPIO_Init) for [Anonymous Symbol]
+    lto-llvm-7f72b8.o(.ARM.exidx.text.HAL_NVIC_SetPriority) refers to lto-llvm-7f72b8.o(.text.HAL_NVIC_SetPriority) for [Anonymous Symbol]
+    lto-llvm-7f72b8.o(.ARM.exidx.text.SystemInit) refers to lto-llvm-7f72b8.o(.text.SystemInit) for [Anonymous Symbol]
 
 
 ==============================================================================
@@ -67,24 +67,24 @@ Section Cross References
 Removing Unused input sections from the image.
 
     Removing startup_stm32f103xe.o(HEAP), (512 bytes).
-    Removing lto-llvm-1c78fd.o(.text), (0 bytes).
-    Removing lto-llvm-1c78fd.o(.ARM.exidx.text.main), (8 bytes).
-    Removing lto-llvm-1c78fd.o(.ARM.exidx.text.NMI_Handler), (8 bytes).
-    Removing lto-llvm-1c78fd.o(.ARM.exidx.text.HardFault_Handler), (8 bytes).
-    Removing lto-llvm-1c78fd.o(.ARM.exidx.text.MemManage_Handler), (8 bytes).
-    Removing lto-llvm-1c78fd.o(.ARM.exidx.text.BusFault_Handler), (8 bytes).
-    Removing lto-llvm-1c78fd.o(.ARM.exidx.text.UsageFault_Handler), (8 bytes).
-    Removing lto-llvm-1c78fd.o(.ARM.exidx.text.SVC_Handler), (8 bytes).
-    Removing lto-llvm-1c78fd.o(.ARM.exidx.text.DebugMon_Handler), (8 bytes).
-    Removing lto-llvm-1c78fd.o(.ARM.exidx.text.PendSV_Handler), (8 bytes).
-    Removing lto-llvm-1c78fd.o(.ARM.exidx.text.SysTick_Handler), (8 bytes).
-    Removing lto-llvm-1c78fd.o(.ARM.exidx.text.TIM3_IRQHandler), (8 bytes).
-    Removing lto-llvm-1c78fd.o(.ARM.exidx.text.TIM_Base_SetConfig), (8 bytes).
-    Removing lto-llvm-1c78fd.o(.ARM.exidx.text.HAL_InitTick), (8 bytes).
-    Removing lto-llvm-1c78fd.o(.ARM.exidx.text.HAL_GPIO_Init), (8 bytes).
-    Removing lto-llvm-1c78fd.o(.ARM.exidx.text.HAL_NVIC_SetPriority), (8 bytes).
-    Removing lto-llvm-1c78fd.o(.ARM.exidx.text.SystemInit), (8 bytes).
-    Removing lto-llvm-1c78fd.o(.ARM.use_no_argv), (4 bytes).
+    Removing lto-llvm-7f72b8.o(.text), (0 bytes).
+    Removing lto-llvm-7f72b8.o(.ARM.exidx.text.main), (8 bytes).
+    Removing lto-llvm-7f72b8.o(.ARM.exidx.text.NMI_Handler), (8 bytes).
+    Removing lto-llvm-7f72b8.o(.ARM.exidx.text.HardFault_Handler), (8 bytes).
+    Removing lto-llvm-7f72b8.o(.ARM.exidx.text.MemManage_Handler), (8 bytes).
+    Removing lto-llvm-7f72b8.o(.ARM.exidx.text.BusFault_Handler), (8 bytes).
+    Removing lto-llvm-7f72b8.o(.ARM.exidx.text.UsageFault_Handler), (8 bytes).
+    Removing lto-llvm-7f72b8.o(.ARM.exidx.text.SVC_Handler), (8 bytes).
+    Removing lto-llvm-7f72b8.o(.ARM.exidx.text.DebugMon_Handler), (8 bytes).
+    Removing lto-llvm-7f72b8.o(.ARM.exidx.text.PendSV_Handler), (8 bytes).
+    Removing lto-llvm-7f72b8.o(.ARM.exidx.text.SysTick_Handler), (8 bytes).
+    Removing lto-llvm-7f72b8.o(.ARM.exidx.text.TIM3_IRQHandler), (8 bytes).
+    Removing lto-llvm-7f72b8.o(.ARM.exidx.text.TIM_Base_SetConfig), (8 bytes).
+    Removing lto-llvm-7f72b8.o(.ARM.exidx.text.HAL_InitTick), (8 bytes).
+    Removing lto-llvm-7f72b8.o(.ARM.exidx.text.HAL_GPIO_Init), (8 bytes).
+    Removing lto-llvm-7f72b8.o(.ARM.exidx.text.HAL_NVIC_SetPriority), (8 bytes).
+    Removing lto-llvm-7f72b8.o(.ARM.exidx.text.SystemInit), (8 bytes).
+    Removing lto-llvm-7f72b8.o(.ARM.use_no_argv), (4 bytes).
 
 19 unused section(s) (total 644 bytes) removed from the image.
 
@@ -112,7 +112,7 @@ Image Symbol Table
     dc.s                                     0x00000000   Number         0  dc.o ABSOLUTE
     handlers.s                               0x00000000   Number         0  handlers.o ABSOLUTE
     init.s                                   0x00000000   Number         0  init.o ABSOLUTE
-    ld-temp.o                                0x00000000   Number         0  lto-llvm-1c78fd.o ABSOLUTE
+    ld-temp.o                                0x00000000   Number         0  lto-llvm-7f72b8.o ABSOLUTE
     startup_stm32f103xe.s                    0x00000000   Number         0  startup_stm32f103xe.o ABSOLUTE
     RESET                                    0x08000000   Section      304  startup_stm32f103xe.o(RESET)
     .ARM.Collect$$$$00000000                 0x08000130   Section        0  entry.o(.ARM.Collect$$$$00000000)
@@ -127,81 +127,81 @@ Image Symbol Table
     .ARM.Collect$$$$00002712                 0x08000140   Section        4  entry2.o(.ARM.Collect$$$$00002712)
     .text                                    0x08000144   Section       36  startup_stm32f103xe.o(.text)
     .text                                    0x08000168   Section       36  init.o(.text)
-    [Anonymous Symbol]                       0x0800018c   Section        0  lto-llvm-1c78fd.o(.text.BusFault_Handler)
-    [Anonymous Symbol]                       0x0800018e   Section        0  lto-llvm-1c78fd.o(.text.DebugMon_Handler)
-    HAL_GPIO_Init                            0x08000191   Thumb Code   420  lto-llvm-1c78fd.o(.text.HAL_GPIO_Init)
-    [Anonymous Symbol]                       0x08000190   Section        0  lto-llvm-1c78fd.o(.text.HAL_GPIO_Init)
-    __arm_cp.13_0                            0x08000304   Number         4  lto-llvm-1c78fd.o(.text.HAL_GPIO_Init)
-    __arm_cp.13_1                            0x08000308   Number         4  lto-llvm-1c78fd.o(.text.HAL_GPIO_Init)
-    __arm_cp.13_2                            0x0800030c   Number         4  lto-llvm-1c78fd.o(.text.HAL_GPIO_Init)
-    __arm_cp.13_3                            0x08000310   Number         4  lto-llvm-1c78fd.o(.text.HAL_GPIO_Init)
-    __arm_cp.13_4                            0x08000314   Number         4  lto-llvm-1c78fd.o(.text.HAL_GPIO_Init)
-    __arm_cp.13_5                            0x08000318   Number         4  lto-llvm-1c78fd.o(.text.HAL_GPIO_Init)
-    __arm_cp.13_6                            0x0800031c   Number         4  lto-llvm-1c78fd.o(.text.HAL_GPIO_Init)
-    __arm_cp.13_7                            0x08000320   Number         4  lto-llvm-1c78fd.o(.text.HAL_GPIO_Init)
-    __arm_cp.13_8                            0x08000324   Number         4  lto-llvm-1c78fd.o(.text.HAL_GPIO_Init)
-    __arm_cp.13_9                            0x08000328   Number         4  lto-llvm-1c78fd.o(.text.HAL_GPIO_Init)
-    __arm_cp.13_10                           0x0800032c   Number         4  lto-llvm-1c78fd.o(.text.HAL_GPIO_Init)
-    __arm_cp.13_11                           0x08000330   Number         4  lto-llvm-1c78fd.o(.text.HAL_GPIO_Init)
-    HAL_InitTick                             0x08000335   Thumb Code    76  lto-llvm-1c78fd.o(.text.HAL_InitTick)
-    [Anonymous Symbol]                       0x08000334   Section        0  lto-llvm-1c78fd.o(.text.HAL_InitTick)
-    __arm_cp.12_0                            0x08000374   Number         4  lto-llvm-1c78fd.o(.text.HAL_InitTick)
-    __arm_cp.12_1                            0x08000378   Number         4  lto-llvm-1c78fd.o(.text.HAL_InitTick)
-    __arm_cp.12_2                            0x0800037c   Number         4  lto-llvm-1c78fd.o(.text.HAL_InitTick)
-    HAL_NVIC_SetPriority                     0x08000381   Thumb Code    76  lto-llvm-1c78fd.o(.text.HAL_NVIC_SetPriority)
-    [Anonymous Symbol]                       0x08000380   Section        0  lto-llvm-1c78fd.o(.text.HAL_NVIC_SetPriority)
-    __arm_cp.14_0                            0x080003c8   Number         4  lto-llvm-1c78fd.o(.text.HAL_NVIC_SetPriority)
-    [Anonymous Symbol]                       0x080003cc   Section        0  lto-llvm-1c78fd.o(.text.HardFault_Handler)
-    [Anonymous Symbol]                       0x080003ce   Section        0  lto-llvm-1c78fd.o(.text.MemManage_Handler)
-    [Anonymous Symbol]                       0x080003d0   Section        0  lto-llvm-1c78fd.o(.text.NMI_Handler)
-    [Anonymous Symbol]                       0x080003d2   Section        0  lto-llvm-1c78fd.o(.text.PendSV_Handler)
-    [Anonymous Symbol]                       0x080003d4   Section        0  lto-llvm-1c78fd.o(.text.SVC_Handler)
-    [Anonymous Symbol]                       0x080003d8   Section        0  lto-llvm-1c78fd.o(.text.SysTick_Handler)
-    [Anonymous Symbol]                       0x080003e4   Section        0  lto-llvm-1c78fd.o(.text.SystemInit)
-    __arm_cp.15_0                            0x08000420   Number         4  lto-llvm-1c78fd.o(.text.SystemInit)
-    __arm_cp.15_1                            0x08000424   Number         4  lto-llvm-1c78fd.o(.text.SystemInit)
-    __arm_cp.15_2                            0x08000428   Number         4  lto-llvm-1c78fd.o(.text.SystemInit)
-    __arm_cp.15_3                            0x0800042c   Number         4  lto-llvm-1c78fd.o(.text.SystemInit)
-    [Anonymous Symbol]                       0x08000430   Section        0  lto-llvm-1c78fd.o(.text.TIM3_IRQHandler)
-    TIM_Base_SetConfig                       0x080004f9   Thumb Code   164  lto-llvm-1c78fd.o(.text.TIM_Base_SetConfig)
-    [Anonymous Symbol]                       0x080004f8   Section        0  lto-llvm-1c78fd.o(.text.TIM_Base_SetConfig)
-    __arm_cp.11_0                            0x08000584   Number         4  lto-llvm-1c78fd.o(.text.TIM_Base_SetConfig)
-    __arm_cp.11_1                            0x08000588   Number         4  lto-llvm-1c78fd.o(.text.TIM_Base_SetConfig)
-    __arm_cp.11_2                            0x0800058c   Number         4  lto-llvm-1c78fd.o(.text.TIM_Base_SetConfig)
-    __arm_cp.11_3                            0x08000590   Number         4  lto-llvm-1c78fd.o(.text.TIM_Base_SetConfig)
-    __arm_cp.11_4                            0x08000594   Number         4  lto-llvm-1c78fd.o(.text.TIM_Base_SetConfig)
-    __arm_cp.11_5                            0x08000598   Number         4  lto-llvm-1c78fd.o(.text.TIM_Base_SetConfig)
-    [Anonymous Symbol]                       0x0800059c   Section        0  lto-llvm-1c78fd.o(.text.UsageFault_Handler)
-    [Anonymous Symbol]                       0x080005a0   Section        0  lto-llvm-1c78fd.o(.text.main)
-    __arm_cp.0_20                            0x0800073c   Number         4  lto-llvm-1c78fd.o(.text.main)
-    __arm_cp.0_21                            0x08000740   Number         4  lto-llvm-1c78fd.o(.text.main)
-    __arm_cp.0_22                            0x08000744   Number         4  lto-llvm-1c78fd.o(.text.main)
-    __arm_cp.0_23                            0x08000748   Number         4  lto-llvm-1c78fd.o(.text.main)
-    __arm_cp.0_25                            0x080009ec   Number         4  lto-llvm-1c78fd.o(.text.main)
-    __arm_cp.0_4                             0x080009f0   Number         4  lto-llvm-1c78fd.o(.text.main)
-    __arm_cp.0_5                             0x080009f4   Number         4  lto-llvm-1c78fd.o(.text.main)
-    __arm_cp.0_7                             0x080009f8   Number         4  lto-llvm-1c78fd.o(.text.main)
-    __arm_cp.0_10                            0x08000a10   Number         4  lto-llvm-1c78fd.o(.text.main)
-    AHBPrescTable                            0x08000a14   Number         0  lto-llvm-1c78fd.o(.text.main)
-    __arm_cp.0_12                            0x08000a24   Number         4  lto-llvm-1c78fd.o(.text.main)
-    __arm_cp.0_13                            0x08000a28   Number         4  lto-llvm-1c78fd.o(.text.main)
-    __arm_cp.0_14                            0x08000a2c   Number         4  lto-llvm-1c78fd.o(.text.main)
-    __arm_cp.0_15                            0x08000a30   Number         4  lto-llvm-1c78fd.o(.text.main)
-    __arm_cp.0_16                            0x08000a34   Number         4  lto-llvm-1c78fd.o(.text.main)
-    __arm_cp.0_17                            0x08000a38   Number         4  lto-llvm-1c78fd.o(.text.main)
-    __arm_cp.0_18                            0x08000a3c   Number         4  lto-llvm-1c78fd.o(.text.main)
-    __arm_cp.0_19                            0x08000a40   Number         4  lto-llvm-1c78fd.o(.text.main)
+    [Anonymous Symbol]                       0x0800018c   Section        0  lto-llvm-7f72b8.o(.text.BusFault_Handler)
+    [Anonymous Symbol]                       0x0800018e   Section        0  lto-llvm-7f72b8.o(.text.DebugMon_Handler)
+    HAL_GPIO_Init                            0x08000191   Thumb Code   420  lto-llvm-7f72b8.o(.text.HAL_GPIO_Init)
+    [Anonymous Symbol]                       0x08000190   Section        0  lto-llvm-7f72b8.o(.text.HAL_GPIO_Init)
+    __arm_cp.13_0                            0x08000304   Number         4  lto-llvm-7f72b8.o(.text.HAL_GPIO_Init)
+    __arm_cp.13_1                            0x08000308   Number         4  lto-llvm-7f72b8.o(.text.HAL_GPIO_Init)
+    __arm_cp.13_2                            0x0800030c   Number         4  lto-llvm-7f72b8.o(.text.HAL_GPIO_Init)
+    __arm_cp.13_3                            0x08000310   Number         4  lto-llvm-7f72b8.o(.text.HAL_GPIO_Init)
+    __arm_cp.13_4                            0x08000314   Number         4  lto-llvm-7f72b8.o(.text.HAL_GPIO_Init)
+    __arm_cp.13_5                            0x08000318   Number         4  lto-llvm-7f72b8.o(.text.HAL_GPIO_Init)
+    __arm_cp.13_6                            0x0800031c   Number         4  lto-llvm-7f72b8.o(.text.HAL_GPIO_Init)
+    __arm_cp.13_7                            0x08000320   Number         4  lto-llvm-7f72b8.o(.text.HAL_GPIO_Init)
+    __arm_cp.13_8                            0x08000324   Number         4  lto-llvm-7f72b8.o(.text.HAL_GPIO_Init)
+    __arm_cp.13_9                            0x08000328   Number         4  lto-llvm-7f72b8.o(.text.HAL_GPIO_Init)
+    __arm_cp.13_10                           0x0800032c   Number         4  lto-llvm-7f72b8.o(.text.HAL_GPIO_Init)
+    __arm_cp.13_11                           0x08000330   Number         4  lto-llvm-7f72b8.o(.text.HAL_GPIO_Init)
+    HAL_InitTick                             0x08000335   Thumb Code    76  lto-llvm-7f72b8.o(.text.HAL_InitTick)
+    [Anonymous Symbol]                       0x08000334   Section        0  lto-llvm-7f72b8.o(.text.HAL_InitTick)
+    __arm_cp.12_0                            0x08000374   Number         4  lto-llvm-7f72b8.o(.text.HAL_InitTick)
+    __arm_cp.12_1                            0x08000378   Number         4  lto-llvm-7f72b8.o(.text.HAL_InitTick)
+    __arm_cp.12_2                            0x0800037c   Number         4  lto-llvm-7f72b8.o(.text.HAL_InitTick)
+    HAL_NVIC_SetPriority                     0x08000381   Thumb Code    76  lto-llvm-7f72b8.o(.text.HAL_NVIC_SetPriority)
+    [Anonymous Symbol]                       0x08000380   Section        0  lto-llvm-7f72b8.o(.text.HAL_NVIC_SetPriority)
+    __arm_cp.14_0                            0x080003c8   Number         4  lto-llvm-7f72b8.o(.text.HAL_NVIC_SetPriority)
+    [Anonymous Symbol]                       0x080003cc   Section        0  lto-llvm-7f72b8.o(.text.HardFault_Handler)
+    [Anonymous Symbol]                       0x080003ce   Section        0  lto-llvm-7f72b8.o(.text.MemManage_Handler)
+    [Anonymous Symbol]                       0x080003d0   Section        0  lto-llvm-7f72b8.o(.text.NMI_Handler)
+    [Anonymous Symbol]                       0x080003d2   Section        0  lto-llvm-7f72b8.o(.text.PendSV_Handler)
+    [Anonymous Symbol]                       0x080003d4   Section        0  lto-llvm-7f72b8.o(.text.SVC_Handler)
+    [Anonymous Symbol]                       0x080003d8   Section        0  lto-llvm-7f72b8.o(.text.SysTick_Handler)
+    [Anonymous Symbol]                       0x080003e4   Section        0  lto-llvm-7f72b8.o(.text.SystemInit)
+    __arm_cp.15_0                            0x08000420   Number         4  lto-llvm-7f72b8.o(.text.SystemInit)
+    __arm_cp.15_1                            0x08000424   Number         4  lto-llvm-7f72b8.o(.text.SystemInit)
+    __arm_cp.15_2                            0x08000428   Number         4  lto-llvm-7f72b8.o(.text.SystemInit)
+    __arm_cp.15_3                            0x0800042c   Number         4  lto-llvm-7f72b8.o(.text.SystemInit)
+    [Anonymous Symbol]                       0x08000430   Section        0  lto-llvm-7f72b8.o(.text.TIM3_IRQHandler)
+    TIM_Base_SetConfig                       0x080004f9   Thumb Code   164  lto-llvm-7f72b8.o(.text.TIM_Base_SetConfig)
+    [Anonymous Symbol]                       0x080004f8   Section        0  lto-llvm-7f72b8.o(.text.TIM_Base_SetConfig)
+    __arm_cp.11_0                            0x08000584   Number         4  lto-llvm-7f72b8.o(.text.TIM_Base_SetConfig)
+    __arm_cp.11_1                            0x08000588   Number         4  lto-llvm-7f72b8.o(.text.TIM_Base_SetConfig)
+    __arm_cp.11_2                            0x0800058c   Number         4  lto-llvm-7f72b8.o(.text.TIM_Base_SetConfig)
+    __arm_cp.11_3                            0x08000590   Number         4  lto-llvm-7f72b8.o(.text.TIM_Base_SetConfig)
+    __arm_cp.11_4                            0x08000594   Number         4  lto-llvm-7f72b8.o(.text.TIM_Base_SetConfig)
+    __arm_cp.11_5                            0x08000598   Number         4  lto-llvm-7f72b8.o(.text.TIM_Base_SetConfig)
+    [Anonymous Symbol]                       0x0800059c   Section        0  lto-llvm-7f72b8.o(.text.UsageFault_Handler)
+    [Anonymous Symbol]                       0x080005a0   Section        0  lto-llvm-7f72b8.o(.text.main)
+    __arm_cp.0_20                            0x0800073c   Number         4  lto-llvm-7f72b8.o(.text.main)
+    __arm_cp.0_21                            0x08000740   Number         4  lto-llvm-7f72b8.o(.text.main)
+    __arm_cp.0_22                            0x08000744   Number         4  lto-llvm-7f72b8.o(.text.main)
+    __arm_cp.0_23                            0x08000748   Number         4  lto-llvm-7f72b8.o(.text.main)
+    __arm_cp.0_25                            0x080009ec   Number         4  lto-llvm-7f72b8.o(.text.main)
+    __arm_cp.0_4                             0x080009f0   Number         4  lto-llvm-7f72b8.o(.text.main)
+    __arm_cp.0_5                             0x080009f4   Number         4  lto-llvm-7f72b8.o(.text.main)
+    __arm_cp.0_7                             0x080009f8   Number         4  lto-llvm-7f72b8.o(.text.main)
+    __arm_cp.0_10                            0x08000a10   Number         4  lto-llvm-7f72b8.o(.text.main)
+    AHBPrescTable                            0x08000a14   Number         0  lto-llvm-7f72b8.o(.text.main)
+    __arm_cp.0_12                            0x08000a24   Number         4  lto-llvm-7f72b8.o(.text.main)
+    __arm_cp.0_13                            0x08000a28   Number         4  lto-llvm-7f72b8.o(.text.main)
+    __arm_cp.0_14                            0x08000a2c   Number         4  lto-llvm-7f72b8.o(.text.main)
+    __arm_cp.0_15                            0x08000a30   Number         4  lto-llvm-7f72b8.o(.text.main)
+    __arm_cp.0_16                            0x08000a34   Number         4  lto-llvm-7f72b8.o(.text.main)
+    __arm_cp.0_17                            0x08000a38   Number         4  lto-llvm-7f72b8.o(.text.main)
+    __arm_cp.0_18                            0x08000a3c   Number         4  lto-llvm-7f72b8.o(.text.main)
+    __arm_cp.0_19                            0x08000a40   Number         4  lto-llvm-7f72b8.o(.text.main)
     i.__scatterload_copy                     0x08000a44   Section       14  handlers.o(i.__scatterload_copy)
     i.__scatterload_null                     0x08000a52   Section        2  handlers.o(i.__scatterload_null)
     i.__scatterload_zeroinit                 0x08000a54   Section       14  handlers.o(i.__scatterload_zeroinit)
-    uwTickPrio                               0x20000000   Data           4  lto-llvm-1c78fd.o(.data..L_MergedGlobals)
-    [Anonymous Symbol]                       0x20000000   Section        0  lto-llvm-1c78fd.o(.data..L_MergedGlobals)
-    SystemCoreClock                          0x20000004   Data           4  lto-llvm-1c78fd.o(.data..L_MergedGlobals)
-    duty_mode                                0x20000008   Data           1  lto-llvm-1c78fd.o(.bss..L_MergedGlobals.69)
-    [Anonymous Symbol]                       0x20000008   Section        0  lto-llvm-1c78fd.o(.bss..L_MergedGlobals.69)
-    duty                                     0x2000000c   Data           4  lto-llvm-1c78fd.o(.bss..L_MergedGlobals.69)
-    uwTick                                   0x20000010   Data           4  lto-llvm-1c78fd.o(.bss..L_MergedGlobals.69)
-    htim3                                    0x20000014   Data          64  lto-llvm-1c78fd.o(.bss..L_MergedGlobals.69)
+    uwTickPrio                               0x20000000   Data           4  lto-llvm-7f72b8.o(.data..L_MergedGlobals)
+    [Anonymous Symbol]                       0x20000000   Section        0  lto-llvm-7f72b8.o(.data..L_MergedGlobals)
+    SystemCoreClock                          0x20000004   Data           4  lto-llvm-7f72b8.o(.data..L_MergedGlobals)
+    duty_mode                                0x20000008   Data           1  lto-llvm-7f72b8.o(.bss..L_MergedGlobals.69)
+    [Anonymous Symbol]                       0x20000008   Section        0  lto-llvm-7f72b8.o(.bss..L_MergedGlobals.69)
+    duty                                     0x2000000c   Data           4  lto-llvm-7f72b8.o(.bss..L_MergedGlobals.69)
+    uwTick                                   0x20000010   Data           4  lto-llvm-7f72b8.o(.bss..L_MergedGlobals.69)
+    htim3                                    0x20000014   Data          64  lto-llvm-7f72b8.o(.bss..L_MergedGlobals.69)
     STACK                                    0x20000058   Section     1024  startup_stm32f103xe.o(STACK)
 
     Global Symbols
@@ -288,18 +288,18 @@ Image Symbol Table
     WWDG_IRQHandler                          0x0800015f   Thumb Code     0  startup_stm32f103xe.o(.text)
     __scatterload                            0x08000169   Thumb Code    28  init.o(.text)
     __scatterload_rt2                        0x08000169   Thumb Code     0  init.o(.text)
-    BusFault_Handler                         0x0800018d   Thumb Code     2  lto-llvm-1c78fd.o(.text.BusFault_Handler)
-    DebugMon_Handler                         0x0800018f   Thumb Code     2  lto-llvm-1c78fd.o(.text.DebugMon_Handler)
-    HardFault_Handler                        0x080003cd   Thumb Code     2  lto-llvm-1c78fd.o(.text.HardFault_Handler)
-    MemManage_Handler                        0x080003cf   Thumb Code     2  lto-llvm-1c78fd.o(.text.MemManage_Handler)
-    NMI_Handler                              0x080003d1   Thumb Code     2  lto-llvm-1c78fd.o(.text.NMI_Handler)
-    PendSV_Handler                           0x080003d3   Thumb Code     2  lto-llvm-1c78fd.o(.text.PendSV_Handler)
-    SVC_Handler                              0x080003d5   Thumb Code     2  lto-llvm-1c78fd.o(.text.SVC_Handler)
-    SysTick_Handler                          0x080003d9   Thumb Code    12  lto-llvm-1c78fd.o(.text.SysTick_Handler)
-    SystemInit                               0x080003e5   Thumb Code    76  lto-llvm-1c78fd.o(.text.SystemInit)
-    TIM3_IRQHandler                          0x08000431   Thumb Code   200  lto-llvm-1c78fd.o(.text.TIM3_IRQHandler)
-    UsageFault_Handler                       0x0800059d   Thumb Code     2  lto-llvm-1c78fd.o(.text.UsageFault_Handler)
-    main                                     0x080005a1   Thumb Code  1188  lto-llvm-1c78fd.o(.text.main)
+    BusFault_Handler                         0x0800018d   Thumb Code     2  lto-llvm-7f72b8.o(.text.BusFault_Handler)
+    DebugMon_Handler                         0x0800018f   Thumb Code     2  lto-llvm-7f72b8.o(.text.DebugMon_Handler)
+    HardFault_Handler                        0x080003cd   Thumb Code     2  lto-llvm-7f72b8.o(.text.HardFault_Handler)
+    MemManage_Handler                        0x080003cf   Thumb Code     2  lto-llvm-7f72b8.o(.text.MemManage_Handler)
+    NMI_Handler                              0x080003d1   Thumb Code     2  lto-llvm-7f72b8.o(.text.NMI_Handler)
+    PendSV_Handler                           0x080003d3   Thumb Code     2  lto-llvm-7f72b8.o(.text.PendSV_Handler)
+    SVC_Handler                              0x080003d5   Thumb Code     2  lto-llvm-7f72b8.o(.text.SVC_Handler)
+    SysTick_Handler                          0x080003d9   Thumb Code    12  lto-llvm-7f72b8.o(.text.SysTick_Handler)
+    SystemInit                               0x080003e5   Thumb Code    76  lto-llvm-7f72b8.o(.text.SystemInit)
+    TIM3_IRQHandler                          0x08000431   Thumb Code   200  lto-llvm-7f72b8.o(.text.TIM3_IRQHandler)
+    UsageFault_Handler                       0x0800059d   Thumb Code     2  lto-llvm-7f72b8.o(.text.UsageFault_Handler)
+    main                                     0x080005a1   Thumb Code  1188  lto-llvm-7f72b8.o(.text.main)
     __scatterload_copy                       0x08000a45   Thumb Code    14  handlers.o(i.__scatterload_copy)
     __scatterload_null                       0x08000a53   Thumb Code     2  handlers.o(i.__scatterload_null)
     __scatterload_zeroinit                   0x08000a55   Thumb Code    14  handlers.o(i.__scatterload_zeroinit)
@@ -333,24 +333,24 @@ Memory Map of the image
     0x08000140   0x08000140   0x00000004   Code   RO           33    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
     0x08000144   0x08000144   0x00000024   Code   RO            4    .text               startup_stm32f103xe.o
     0x08000168   0x08000168   0x00000024   Code   RO           46    .text               mc_w.l(init.o)
-    0x0800018c   0x0800018c   0x00000002   Code   RO           57    .text.BusFault_Handler  lto-llvm-1c78fd.o
-    0x0800018e   0x0800018e   0x00000002   Code   RO           63    .text.DebugMon_Handler  lto-llvm-1c78fd.o
-    0x08000190   0x08000190   0x000001a4   Code   RO           75    .text.HAL_GPIO_Init  lto-llvm-1c78fd.o
-    0x08000334   0x08000334   0x0000004c   Code   RO           73    .text.HAL_InitTick  lto-llvm-1c78fd.o
-    0x08000380   0x08000380   0x0000004c   Code   RO           77    .text.HAL_NVIC_SetPriority  lto-llvm-1c78fd.o
-    0x080003cc   0x080003cc   0x00000002   Code   RO           53    .text.HardFault_Handler  lto-llvm-1c78fd.o
-    0x080003ce   0x080003ce   0x00000002   Code   RO           55    .text.MemManage_Handler  lto-llvm-1c78fd.o
-    0x080003d0   0x080003d0   0x00000002   Code   RO           51    .text.NMI_Handler   lto-llvm-1c78fd.o
-    0x080003d2   0x080003d2   0x00000002   Code   RO           65    .text.PendSV_Handler  lto-llvm-1c78fd.o
-    0x080003d4   0x080003d4   0x00000002   Code   RO           61    .text.SVC_Handler   lto-llvm-1c78fd.o
+    0x0800018c   0x0800018c   0x00000002   Code   RO           57    .text.BusFault_Handler  lto-llvm-7f72b8.o
+    0x0800018e   0x0800018e   0x00000002   Code   RO           63    .text.DebugMon_Handler  lto-llvm-7f72b8.o
+    0x08000190   0x08000190   0x000001a4   Code   RO           75    .text.HAL_GPIO_Init  lto-llvm-7f72b8.o
+    0x08000334   0x08000334   0x0000004c   Code   RO           73    .text.HAL_InitTick  lto-llvm-7f72b8.o
+    0x08000380   0x08000380   0x0000004c   Code   RO           77    .text.HAL_NVIC_SetPriority  lto-llvm-7f72b8.o
+    0x080003cc   0x080003cc   0x00000002   Code   RO           53    .text.HardFault_Handler  lto-llvm-7f72b8.o
+    0x080003ce   0x080003ce   0x00000002   Code   RO           55    .text.MemManage_Handler  lto-llvm-7f72b8.o
+    0x080003d0   0x080003d0   0x00000002   Code   RO           51    .text.NMI_Handler   lto-llvm-7f72b8.o
+    0x080003d2   0x080003d2   0x00000002   Code   RO           65    .text.PendSV_Handler  lto-llvm-7f72b8.o
+    0x080003d4   0x080003d4   0x00000002   Code   RO           61    .text.SVC_Handler   lto-llvm-7f72b8.o
     0x080003d6   0x080003d6   0x00000002   PAD
-    0x080003d8   0x080003d8   0x0000000c   Code   RO           67    .text.SysTick_Handler  lto-llvm-1c78fd.o
-    0x080003e4   0x080003e4   0x0000004c   Code   RO           79    .text.SystemInit    lto-llvm-1c78fd.o
-    0x08000430   0x08000430   0x000000c8   Code   RO           69    .text.TIM3_IRQHandler  lto-llvm-1c78fd.o
-    0x080004f8   0x080004f8   0x000000a4   Code   RO           71    .text.TIM_Base_SetConfig  lto-llvm-1c78fd.o
-    0x0800059c   0x0800059c   0x00000002   Code   RO           59    .text.UsageFault_Handler  lto-llvm-1c78fd.o
+    0x080003d8   0x080003d8   0x0000000c   Code   RO           67    .text.SysTick_Handler  lto-llvm-7f72b8.o
+    0x080003e4   0x080003e4   0x0000004c   Code   RO           79    .text.SystemInit    lto-llvm-7f72b8.o
+    0x08000430   0x08000430   0x000000c8   Code   RO           69    .text.TIM3_IRQHandler  lto-llvm-7f72b8.o
+    0x080004f8   0x080004f8   0x000000a4   Code   RO           71    .text.TIM_Base_SetConfig  lto-llvm-7f72b8.o
+    0x0800059c   0x0800059c   0x00000002   Code   RO           59    .text.UsageFault_Handler  lto-llvm-7f72b8.o
     0x0800059e   0x0800059e   0x00000002   PAD
-    0x080005a0   0x080005a0   0x000004a4   Code   RO           49    .text.main          lto-llvm-1c78fd.o
+    0x080005a0   0x080005a0   0x000004a4   Code   RO           49    .text.main          lto-llvm-7f72b8.o
     0x08000a44   0x08000a44   0x0000000e   Code   RO           93    i.__scatterload_copy  mc_w.l(handlers.o)
     0x08000a52   0x08000a52   0x00000002   Code   RO           94    i.__scatterload_null  mc_w.l(handlers.o)
     0x08000a54   0x08000a54   0x0000000e   Code   RO           95    i.__scatterload_zeroinit  mc_w.l(handlers.o)
@@ -362,8 +362,8 @@ Memory Map of the image
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x20000000   0x08000a88   0x00000008   Data   RW           82    .data..L_MergedGlobals  lto-llvm-1c78fd.o
-    0x20000008        -       0x0000004c   Zero   RW           83    .bss..L_MergedGlobals.69  lto-llvm-1c78fd.o
+    0x20000000   0x08000a88   0x00000008   Data   RW           82    .data..L_MergedGlobals  lto-llvm-7f72b8.o
+    0x20000008        -       0x0000004c   Zero   RW           83    .bss..L_MergedGlobals.69  lto-llvm-7f72b8.o
     0x20000054   0x08000a90   0x00000004   PAD
     0x20000058        -       0x00000400   Zero   RW            1    STACK               startup_stm32f103xe.o
 
@@ -375,7 +375,7 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-      2228        216          0          8         76      30878   lto-llvm-1c78fd.o
+      2228        216          0          8         76      30878   lto-llvm-7f72b8.o
         36          8        304          0       1024        804   startup_stm32f103xe.o
 
     ----------------------------------------------------------------------

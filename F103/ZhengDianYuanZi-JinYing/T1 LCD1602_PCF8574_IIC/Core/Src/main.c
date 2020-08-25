@@ -102,7 +102,7 @@ int main(void)
 
   lcd_send_string("from CTECH");
 
-  HAL_Delay(2000);
+  HAL_Delay(1000);
 
   lcd_clear ();
 
@@ -119,7 +119,7 @@ int main(void)
 	  {
 		  lcd_put_cur(row, col);
 
-		  lcd_send_data(i+48);
+		  lcd_send_data(i + 48);
 
 		  col++;
 
