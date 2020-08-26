@@ -49,7 +49,7 @@ void LCD1602_Move_Cur(int row, int col)
 	if (row == 1)
 		col |= 0xc0;
 	else
-		col |= 0x80;
+		col |= 0x80;	//看说明书的第8条指令
 	LCD1602_W_Cmd(col);
 }
 /**************************************清屏*****************/
