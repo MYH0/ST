@@ -1,11 +1,4 @@
-buildConsoleBackgroundColor=25,29,31
-buildConsoleErrorStreamColor=218,29,67
-buildConsoleInfoStreamColor=121,171,255
 buildConsoleOutputStreamColor=0,255,255
-buildConsoleProblemBackgroundColor=11,13,14
-buildConsoleProblemHighlightedColor=255,127,127
-buildConsoleProblemInfoBackgroundColor=25,29,31
-buildConsoleProblemWarningBackgroundColor=10,12,13
 c_braces=255,255,0
 c_braces_bold=true
 c_comment_task_tag=0,255,0
@@ -60,7 +53,6 @@ nameStyle.variable.wordDelimiter=
 org.eclipse.cdt.internal.ui.text.doctools.doxygen.multi=128,0,255
 org.eclipse.cdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
 org.eclipse.cdt.ui.text.templates.custom=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
-overriddenByCSS=,buildConsoleBackgroundColor,buildConsoleErrorStreamColor,buildConsoleInfoStreamColor,buildConsoleProblemBackgroundColor,buildConsoleProblemHighlightedColor,buildConsoleProblemInfoBackgroundColor,buildConsoleProblemWarningBackgroundColor,
 pp_directive=255,255,0
 pp_directive_italic=true
 pp_header=255,128,0
