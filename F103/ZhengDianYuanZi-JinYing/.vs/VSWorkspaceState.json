@@ -3,14 +3,14 @@
     "",
     "\\0 函数库",
     "\\0 函数库\\My_Driver",
-    "\\P06 LCD1602-PCF8574-Hard-IIC\\Core",
-    "\\T1 LCD1602_PCF8574_IIC\\Core",
-    "\\T1 LCD1602_PCF8574_IIC\\Core\\Src",
-    "\\T2 OLED IIC Hard",
+    "\\P07 OLED IIC Hard\\Core",
+    "\\P07 OLED IIC Hard\\Core\\Inc",
+    "\\P07 OLED IIC Hard\\Core\\Src",
+    "\\P07 OLED IIC Hard\\Core\\Src\\My_Driver",
     "\\T2 OLED IIC Hard\\Core",
     "\\T2 OLED IIC Hard\\Core\\Inc",
     "\\T2 OLED IIC Hard\\Core\\Src"
   ],
-  "SelectedNode": "\\T2 OLED IIC Hard\\Core\\Src\\main.c",
+  "SelectedNode": "\\0 函数库\\My_Driver_STM32F1.h",
   "PreviewInSolutionExplorer": false
 }

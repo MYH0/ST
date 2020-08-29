@@ -24,7 +24,6 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include <math.h>
 #include "oled.h"
 
 /* USER CODE END Includes */
@@ -94,18 +93,13 @@ int main(void)
   OLED_Clear();
   OLED_ShowString(0, 0, "Men Yuhan", 16);
   OLED_ShowNum(0, 2, 2020, 4, 16);
-  OLED_ShowCHinese(0, 4, 0);
-  OLED_ShowCHinese(16, 4, 1);
-  OLED_ShowCHinese(32, 4, 2);
-  OLED_ShowCHinese(48, 4, 6);
-  OLED_ShowCHinese(0, 6, 3);
-  OLED_ShowCHinese(16, 6, 4);
-  OLED_ShowCHinese(32, 6, 5);
-  OLED_ShowCHinese(48, 6, 6);
+  OLED_ShowCHinese(0, 4, 8);
+  OLED_ShowCHinese(16, 4, 9);
+  OLED_ShowCHinese(32, 4, 10);
   OLED_ShowCHinese(64, 4, 7);
   OLED_ShowCHinese(80, 4, 7);
   OLED_ShowCHinese(72, 6, 7);
-
+  OLED_ShowCHinese32(96, 4, 0);
 
   /* USER CODE END 2 */
 

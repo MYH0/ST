@@ -5,14 +5,15 @@
 //https://blog.csdn.net/notMine/article/details/79317782
 //https://blog.csdn.net/qq_39542860/article/details/105907958?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.channel_param
 
-uint8_t CMD_Data[28] = {
+const uint8_t CMD_Data[] = 
+{
 	0xAE,		//关显示
 	0xD5, 0x80,	//设置时钟频率和分频，默认频率不分频
 	0xA8, 0x3F,	//设置驱动路数，默认值1/64
 	0xD3, 0x00,	//设置显示偏移，偏移量为0
 	0x40,		//设置屏幕起始行
 	0x20, 0x02,	//设置内存地址模式，默认值：页地址模式
-	0xB0,		//设置页起始地址
+	0xB0,		//设置页起始地址，从哪一页开始
 	0x00, 0x10,	//页地址模式下设置列起始地址低位，列起始地址高位
 	0xA1,		//段重定义设置,bit0:0,0->0;1,0->127
 	0xC8,		//设置列输出扫描方向
@@ -28,11 +29,11 @@ uint8_t CMD_Data[28] = {
 
 void WriteCmd(void)
 {
-	uint8_t i = 0;
-	for (i = 0; i < 28; i++)
-	{
-		HAL_I2C_Mem_Write(&hi2c1, 0x78, 0x00, I2C_MEMADD_SIZE_8BIT, CMD_Data + i, 1, 0x100);
-	}
+//	uint8_t i = 0;
+//	for (i = 0; i < 28; i++)
+//	{
+	HAL_I2C_Mem_Write(&hi2c1, 0x78, 0x00, I2C_MEMADD_SIZE_8BIT, (uint8_t*)CMD_Data, 28, 0x100);
+//	}
 }
 //向设备写控制命令
 void OLED_WR_CMD(uint8_t cmd)
@@ -47,7 +48,7 @@ void OLED_WR_DATA(uint8_t data)
 //初始化oled屏幕
 void OLED_Init(void)
 {
-	HAL_Delay(200);
+//	HAL_Delay(200);
 
 	WriteCmd();
 }
@@ -116,7 +117,7 @@ void OLED_ShowNum(uint8_t x, uint8_t y, unsigned int num, uint8_t len, uint8_t s
 	for (t = 0; t < len; t++)
 	{
 		temp = (num / oled_pow(10, len - t - 1)) % 10;
-		if (enshow == 0 && t < (len - 1))	//判断首位是否为0
+		if (enshow == 0 && t < (len - 1))	//判断多位数字的首位是否为0
 		{
 			if (temp == 0)
 			{
@@ -180,6 +181,7 @@ void OLED_ShowString(uint8_t x, uint8_t y, uint8_t* chr, uint8_t Char_Size)
 void OLED_ShowCHinese(uint8_t x, uint8_t y, uint8_t no)
 {
 	uint8_t t = 0;
+	no *= 2;
 	OLED_Set_Pos(x, y);
 	for (t = 0; t < 16; t++)
 	{
@@ -188,6 +190,34 @@ void OLED_ShowCHinese(uint8_t x, uint8_t y, uint8_t no)
 	OLED_Set_Pos(x, y + 1);
 	for (t = 0; t < 16; t++)
 	{
-		OLED_WR_DATA(Hzk[no][t + 16]);
+		OLED_WR_DATA(Hzk[no + 1][t]);
 	}
 }
+
+void OLED_ShowCHinese32(uint8_t x, uint8_t y, uint8_t no)
+{
+	uint8_t t = 0;
+	no *= 4;
+	OLED_Set_Pos(x, y);
+	for (t = 0; t < 32; t++)
+	{
+		OLED_WR_DATA(Hzk32[no][t]);
+	}
+	OLED_Set_Pos(x, y + 1);
+	for (t = 0; t < 32; t++)
+	{
+		OLED_WR_DATA(Hzk32[no + 1][t]);
+	}
+	OLED_Set_Pos(x, y + 2);
+	for (t = 0; t < 32; t++)
+	{
+		OLED_WR_DATA(Hzk32[no + 2][t]);
+	}
+	OLED_Set_Pos(x, y + 3);
+	for (t = 0; t < 32; t++)
+	{
+		OLED_WR_DATA(Hzk32[no + 3][t]);
+	}
+
+}
+

@@ -26,5 +26,4 @@ t2\ oled\ iic\ hard/main.o: ..\Core\Src\main.c ..\Core\Inc\main.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_i2c.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h \
   ..\Core\Inc\i2c.h ..\Core\Inc\main.h ..\Core\Inc\gpio.h \
-  C:\KEIL\KEIL-CODE\ARM\ARMCLANG\Bin\..\include\math.h \
   ..\Core\Inc\oled.h
