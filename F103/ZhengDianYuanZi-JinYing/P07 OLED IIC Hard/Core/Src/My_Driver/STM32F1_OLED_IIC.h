@@ -123,6 +123,7 @@ void OLED_Show_String_8x16(uchar col, uchar page, uchar* str)
 }
 /**************************************显示数字**********************/
 //len为数字位数
+//若输入020会被当成8进制数字
 void OLED_Show_Num_8x16(uchar col, uchar page, uint num, uchar len)
 {
 	uchar i = 0;
@@ -133,17 +134,17 @@ void OLED_Show_Num_8x16(uchar col, uchar page, uint num, uchar len)
 	for (i = 0; i < len; i++)
 	{
 		temp = (num / low_pow(10, len - i - 1)) % 10;
-		if (first_bit == 0 && i < (len - 1))		//判断多位数字的首位是否为0
-		{
-			if (temp == 0)
-			{
-				OLED_Show_Char_8x16(col, page, ' ');
-				OLED_Set_Location(col + 8, page);
-				continue;
-			}
-			else
-				first_bit = 1;
-		}
+		//if (first_bit == 0 && i < (len - 1))		//判断多位数字的首位是否为0
+		//{
+		//	if (temp == 0)
+		//	{
+		//		OLED_Show_Char_8x16(col, page, ' ');
+		//		OLED_Set_Location(col + 8, page);
+		//		continue;
+		//	}
+		//	else
+		//		first_bit = 1;
+		//}
 		OLED_Show_Char_8x16(col, page, temp + '0');
 		col += 8;
 	}
