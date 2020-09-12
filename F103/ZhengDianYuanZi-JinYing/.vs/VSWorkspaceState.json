@@ -6,9 +6,8 @@
     "\\P07 OLED IIC Hard",
     "\\P07 OLED IIC Hard\\Core",
     "\\P07 OLED IIC Hard\\Core\\Inc",
-    "\\P07 OLED IIC Hard\\Core\\Src",
-    "\\P07 OLED IIC Hard\\Core\\Src\\My_Driver"
+    "\\P07 OLED IIC Hard\\Core\\Src"
   ],
-  "SelectedNode": "\\00 函数库\\My_Driver\\STM32F1_Delay.h",
+  "SelectedNode": "\\P07 OLED IIC Hard\\Core\\Src\\main.c",
   "PreviewInSolutionExplorer": false
 }
