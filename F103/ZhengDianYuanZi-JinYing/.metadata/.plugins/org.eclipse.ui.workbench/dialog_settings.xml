@@ -13,7 +13,7 @@
 		</list>
 	</section>
 	<section name="WorkbenchPreferenceDialogSettings">
-		<item key="DIALOG_X_ORIGIN" value="597"/>
+		<item key="DIALOG_X_ORIGIN" value="532"/>
 		<item key="DIALOG_Y_ORIGIN" value="91"/>
 	</section>
 	<section name="org.eclipse.ui.preferences.keysPreferencePage">
@@ -27,5 +27,12 @@
 			<item value="org.eclipse.ui.Basic"/>
 			<item value="org.eclipse.cdt.ui.importWizardCategory"/>
 		</list>
+	</section>
+	<section name="InstallationDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="-97"/>
+		<item key="DIALOG_Y_ORIGIN" value="-303"/>
+		<item key="DIALOG_WIDTH" value="812"/>
+		<item key="DIALOG_HEIGHT" value="973"/>
+		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
 	</section>
 </section>
