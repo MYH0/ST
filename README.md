@@ -1,8 +1,8 @@
 # STM32
-编辑器：VS
+编辑器：VS2019
 
 编译器：STM32-CUBE-IDE  
-        Keil5-MDK
+Keil5-MDK
 
 基于：正点原子-STM32F103ZET6-精英
 
